@@ -3,11 +3,6 @@ import * as Icon from 'react-bootstrap-icons';
 import ButtonIcon from "./ButtonIcon";
 
 export default class User extends React.Component {
-    
-  handleButtonClick = () => {
-    let icon = this.state.btn === "pencil"? "ui-checks" : "pencil";
-    this.setState({btn:icon});
-  }
   render() {
     const {name, surname, tel, onNameChange, onSurnameChange, onTelChange, onIconClick, editable, onDelete} = this.props;
     return (
