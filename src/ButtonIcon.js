@@ -4,6 +4,6 @@ import * as Icon from 'react-bootstrap-icons';
 export default function ButtonIcon ({icn}) {
 
   return (
-    icn? <Icon.Pencil color="green"/> : <Icon.UiChecks color="green"/>
+    icn? <Icon.Pencil color="green"/> : <Icon.Check color="green"/>
   );
 }
