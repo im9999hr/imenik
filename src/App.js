@@ -14,7 +14,7 @@ function App() {
   const [users, setUsers] = useState (usersDbNew);
   const [clickedLetter, setClickedLetter] = useState("");
   const [filteredUsers, setFilteredUsers] = useState([]);
-
+  
   const filterUsers = letter => {
     const filtered = users.filter(u => u.prezime.toUpperCase().startsWith(letter));
     setClickedLetter(letter);
